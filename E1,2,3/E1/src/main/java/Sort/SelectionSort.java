@@ -13,7 +13,6 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-            // Swap the found minimum element with the first element
             if (minIndex != i) {
                 Student temp = students.get(minIndex);
                 students.set(minIndex, students.get(i));
